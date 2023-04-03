@@ -4,6 +4,6 @@ public enum ProductCategory {
     SPORTS,
     ELECTRONICS,
     FASHION,
-
+    WATER_CONTAINER
 
 }

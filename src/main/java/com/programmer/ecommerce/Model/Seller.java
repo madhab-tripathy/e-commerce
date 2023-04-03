@@ -3,6 +3,7 @@ package com.programmer.ecommerce.Model;
 import java.util.List;
 import java.util.ArrayList;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -12,6 +13,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
+@Builder
 @Table(name = "sellers")
 public class Seller {
     @Id
